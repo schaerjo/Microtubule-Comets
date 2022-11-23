@@ -22,3 +22,26 @@ docs/site/
 # committed for packages, but should be committed for applications that require a static
 # environment.
 Manifest.toml
+#Files added manually
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/C2C_array.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/C2C.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/InputDF.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/InputParameters.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/InputParametersLocal.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/InputParametersLocal2.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/InputParametersLocal3.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/Plots_test.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/Plots.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/PlotsCluster.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/PlotsLocal.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/Serie0.csv
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/1zone/Serie1.csv
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zones/C2C_array.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zones/InputDF.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zones/InputParametersLocal.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zones/Plots.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zones/PlotsLocal.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zonesMobile/C2C_array.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zonesMobile/InputDF.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zonesMobile/InputParameters.jl
+Code/2Mix_FH_Diff_InfiniteMT_Axisymmetric_2D/2zonesMobile/Plots.jl
