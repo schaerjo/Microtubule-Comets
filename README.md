@@ -6,10 +6,13 @@ We use a phase field approach.
 The phase separation is introduced via a double well potential (different potentials are tested, but we settled
 on a simple (phi-a)²(phi-b)² type of potential).
 The wetting is introduced via a surface energy h*phi.
-We might try to introduce binding to the microtubule via the use of a second population evolving on the MT surface
-and interacting with the bulk proteins.
 
-First, we are simulating an infinite MT by using periodic boundary conditions along the x-axis.
-The MT is at the bottom and a wall is at the top.
+We are simulating different situations considering cylindrical coordinates and assuming axisymmetry:
+  -an infinite MT by using periodic boundary conditions along the x-axis.
+  -a growing MT with the simulation frame moving with the growing tip.
+  -For both cases above, we are simullating in the absence and presence of hydrodynamic flows.
+  -We also introduce a chemical reaction term to induce droplet evaporation.
 
-We expect to see a Rayleigh-Plateau instability causing the formation of regularly spaced droplets.
+The dynamics of the phase field are governed by a Cahn-Hilliard equation while the dynamics of the hydrodynamic flows are governed by the Navier-Stokes equation.
+
+We solve the Cahn-Hilliard equation with an upwind finite difference scheme and the Navier-Stokes equation with the Lattice Boltzmann Method.
