@@ -1,5 +1,3 @@
-#include("InputParametersLocal.jl")
-#include("InputParametersCluster_InfMT.jl")
 include("InputParametersClusterArray.jl")
 
 println(Dates.now())
