@@ -8,10 +8,10 @@ on a simple (phi-a)²(phi-b)² type of potential).
 The wetting is introduced via a surface energy h*phi.
 
 We are simulating different situations considering cylindrical coordinates and assuming axisymmetry:
-  -an infinite MT by using periodic boundary conditions along the x-axis.
-  -a growing MT with the simulation frame moving with the growing tip.
-  -For both cases above, we are simullating in the absence and presence of hydrodynamic flows.
-  -We also introduce a chemical reaction term to induce droplet evaporation.
+  -an infinite MT by using periodic boundary conditions along the x-axis. (Simulation_Static_...)
+  -a growing MT with the simulation frame moving with the growing tip. (Simulation_Growing_...)
+  -For both cases above, we are simullating in the absence (noFlow) and presence (withFlows) of hydrodynamic flows.
+  -We also introduce a chemical reaction term to induce droplet evaporation. (withEvaporation)
 
 The dynamics of the phase field are governed by a Cahn-Hilliard equation while the dynamics of the hydrodynamic flows are governed by the Navier-Stokes equation.
 
