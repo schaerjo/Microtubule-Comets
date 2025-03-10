@@ -4,7 +4,6 @@ idx = Base.parse(Int, ENV["SLURM_ARRAY_TASK_ID"]) # ID of job
 file = joinpath(dir, fn) 
 mkpath(file) 
 println("path_c = ", dir)
-println("path_l = ", localpath)
 println(idx) 
 mkpath(dir)
 
