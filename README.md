@@ -17,6 +17,8 @@ The dynamics of the phase field are governed by a Cahn-Hilliard equation while t
 
 We solve the Cahn-Hilliard equation with an upwind finite difference scheme and the Navier-Stokes equation with the Lattice Boltzmann Method.
 
+The .csv files provide examples of parameter sets used in our simulations.
+
 CUDA version:
 
   CUDA runtime 12.3, artifact installation
