@@ -1,6 +1,4 @@
-#include("InputParametersLocal2.jl")
-#include("InputParametersCluster.jl")
-include("InputParametersClusterArray.jl")
+include("Input_Static_noFlow.jl")
 
 println(Dates.now())
 
