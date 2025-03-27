@@ -1,16 +1,17 @@
 # Microtubule-Wetting
-Code about the microtubule wetting project.
+Code about the microtubule comets project.
 
-We try to simulate the wetting of microtubule by proteins such as EBs and CLIP-170 proteins.
+We are simulating the wetting of microtubules by proteins such as End-Binding (EB) proteins.
 We use a phase field approach.
-The phase separation is introduced via a double well potential (different potentials are tested, but we settled
+The phase separation is introduced via a double well potential (different potentials were tested, but we settled
 on a simple (phi-a)²(phi-b)² type of potential).
 The wetting is introduced via a surface energy h*phi.
+The microtubule is modeled as a solid cylinder.
 
 We are simulating different situations considering cylindrical coordinates and assuming axisymmetry:
   -an infinite MT by using periodic boundary conditions along the x-axis. (Simulation_Static_...)
   -a growing MT with the simulation frame moving with the growing tip. (Simulation_Growing_...)
-  -For both cases above, we are simullating in the absence (noFlow) and presence (withFlows) of hydrodynamic flows.
+  -For both cases above, we are simulating the dynamics in the absence (noFlow) and presence (withFlows) of hydrodynamic flows.
   -We also introduce a chemical reaction term to induce droplet evaporation. (withEvaporation)
 
 The dynamics of the phase field are governed by a Cahn-Hilliard equation while the dynamics of the hydrodynamic flows are governed by the Navier-Stokes equation.
@@ -18,6 +19,8 @@ The dynamics of the phase field are governed by a Cahn-Hilliard equation while t
 We solve the Cahn-Hilliard equation with an upwind finite difference scheme and the Navier-Stokes equation with the Lattice Boltzmann Method.
 
 The .csv files provide examples of parameter sets used in our simulations.
+
+Software versions:
 
 CUDA version:
 
